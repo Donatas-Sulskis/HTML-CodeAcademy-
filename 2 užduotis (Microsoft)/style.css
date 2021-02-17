@@ -1,0 +1,65 @@
+body {
+  width: 62rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper img {
+  height: 4rem;
+}
+
+.wrapper nav {
+  box-sizing: border-box;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #32a852;
+  width: 100%;
+}
+
+.wrapper nav a:not(:last-child) {
+  margin-right: 6rem;
+}
+
+.wrapper nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #eee;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  padding: 2rem;
+  object-fit: fill;
+}
+
+section h1 {
+  background-color: #32a852;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  margin: 1rem 2rem;
+}
+
+section p {
+  margin: 0.5rem 2rem;
+}
+
+section:last-child {
+  background-color: #63e085;
+}

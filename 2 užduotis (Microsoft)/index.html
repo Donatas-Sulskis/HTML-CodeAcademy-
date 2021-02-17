@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Microsoft</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <img
+          src="data:image/png;base64,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"
+          alt="Microsoft logo"
+        />
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contacts</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <img
+          src="https://bstatic.com/xdata/images/xphoto/1182x887/82877075.jpg?k=db9e00135b7b8f038aad88a7676235667ca249a5eed997a499677812fa332833&o=?size=S"
+          alt="Image of a forest"
+        />
+      </section>
+      <section>
+        <h1>About</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
+          sem at massa ullamcorper mollis. Vivamus vel viverra nisl, ut
+          facilisis mauris. Praesent et ultricies sem, ut laoreet arcu. Morbi et
+          nulla efficitur, efficitur ligula ut, laoreet nulla. Morbi nec odio
+          posuere leo iaculis tempor. Curabitur mollis elit turpis, in tempus
+          libero auctor ac. In ut finibus purus. Nullam ut nulla lobortis,
+          commodo justo et, egestas nunc. Duis pulvinar bibendum faucibus.
+          Suspendisse in sagittis ante. Duis ut quam congue, dapibus lacus
+          ornare, rhoncus elit. Pellentesque id commodo urna. Donec pretium id
+          dolor id lacinia. Aenean condimentum velit id felis venenatis viverra.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
+          sem at massa ullamcorper mollis. Vivamus vel viverra nisl, ut
+          facilisis mauris. Praesent et ultricies sem, ut laoreet arcu. Morbi et
+          nulla efficitur, efficitur ligula ut, laoreet nulla. Morbi nec odio
+          posuere leo iaculis tempor. Curabitur mollis elit turpis, in tempus
+          libero auctor ac. In ut finibus purus. Nullam ut nulla lobortis,
+          commodo justo et, egestas nunc. Duis pulvinar bibendum faucibus.
+          Suspendisse in sagittis ante. Duis ut quam congue, dapibus lacus
+          ornare, rhoncus elit. Pellentesque id commodo urna. Donec pretium id
+          dolor id lacinia. Aenean condimentum velit id felis venenatis viverra.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
+          sem at massa ullamcorper mollis. Vivamus vel viverra nisl, ut
+          facilisis mauris. Praesent et ultricies sem, ut laoreet arcu. Morbi et
+          nulla efficitur, efficitur ligula ut, laoreet nulla. Morbi nec odio
+          posuere leo iaculis tempor. Curabitur mollis elit turpis, in tempus
+          libero auctor ac. In ut finibus purus. Nullam ut nulla lobortis,
+          commodo justo et, egestas nunc. Duis pulvinar bibendum faucibus.
+          Suspendisse in sagittis ante. Duis ut quam congue, dapibus lacus
+          ornare, rhoncus elit. Pellentesque id commodo urna. Donec pretium id
+          dolor id lacinia. Aenean condimentum velit id felis venenatis viverra.
+        </p>
+      </section>
+      <section>
+        <h1>Contact</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
+          sem at massa ullamcorper mollis. Vivamus vel viverra nisl, ut
+          facilisis mauris. Praesent et ultricies sem, ut laoreet arcu. Morbi et
+          nulla efficitur, efficitur ligula ut, laoreet nulla. Morbi nec odio
+          posuere leo iaculis tempor. Curabitur mollis elit turpis, in tempus
+          libero auctor ac. In ut finibus purus. Nullam ut nulla lobortis,
+          commodo justo et, egestas nunc. Duis pulvinar bibendum faucibus.
+          Suspendisse in sagittis ante. Duis ut quam congue, dapibus lacus
+          ornare, rhoncus elit. Pellentesque id commodo urna. Donec pretium id
+          dolor id lacinia. Aenean condimentum velit id felis venenatis viverra.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
