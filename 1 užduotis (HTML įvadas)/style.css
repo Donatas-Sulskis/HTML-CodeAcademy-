@@ -1,0 +1,11 @@
+header span {
+  color: blue;
+}
+
+section li:first-child {
+  color: yellow;
+}
+
+section li:last-child {
+  color: blue;
+}
