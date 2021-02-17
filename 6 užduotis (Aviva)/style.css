@@ -1,0 +1,104 @@
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(8, 8, 31);
+  text-align: center;
+}
+
+header img {
+  width: 200px;
+}
+
+header h1 {
+  color: white;
+  text-align: left;
+}
+
+header nav {
+  background-color: rgb(250, 186, 66);
+  padding: 1.5rem;
+  text-align: right;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  padding: 0.8rem;
+}
+
+article {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+article h2 {
+  text-align: left;
+}
+
+article p {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+article a {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 0.4rem 3rem;
+}
+
+.container-tables {
+  background-color: rgb(6, 6, 109);
+  padding-bottom: 1rem;
+}
+
+table,
+th,
+td {
+  border: 2px solid red;
+  border-collapse: collapse;
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  padding: 0.3rem;
+}
+
+tr:last-child td:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+section h2 {
+  color: white;
+  padding-top: 1rem;
+}
+
+.h2-contacts {
+  color: black;
+}
+
+.contacts-href {
+  text-align: center;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: rgb(250, 186, 66);
+  padding: 0.1rem;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
