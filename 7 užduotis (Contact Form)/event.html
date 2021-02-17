@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="eventstyle.css" />
+    <title>Event Registration Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>EVENT REGISTRATION FORM</h1>
+      <form>
+        <label for="name">Name</label>
+        <input class="firstname" type="text" />
+        <input class="lastname" type="text" />
+        <div class="bottom-label">
+          <label class="bottom-label-firstname" for="firstname"
+            >First name</label
+          >
+          <label class="bottom-label-lastname" for="lastname">Last name</label>
+        </div>
+
+        <label class="label-company" for="company">Company</label>
+        <input class="input-company" type="text" /> <br />
+
+        <label class="label-email" for="email">Email</label>
+        <input
+          class="input-email"
+          type="email"
+          placeholder="    example@email.com"
+        />
+        <br />
+
+        <label class="label-phone" for="phone">Phone</label>
+        <input class="input-number-areacode" type="number" />
+        <input class="input-number-phonenumber" type="text" />
+        <div class="bottom-label">
+          <label class="bottom-label-areacode" for="areacode">Area Code</label>
+          <label class="bottom-label-phonenumber" for="number"
+            >Phone Number</label
+          >
+        </div>
+
+        <label class="label-subject" for="subject">Subject</label>
+        <select>
+          <option value="option1">Choose Option</option>
+          <option value="option2">option2</option>
+          <option value="option3">option3</option>
+          <option value="option4">option4</option>
+        </select>
+        <br />
+
+        <label class="label-customer" for="customer"
+          >Are you existing customer?</label
+        >
+
+        <input type="radio" />
+        <label class="label-customer-yes" for="yes">Yes</label>
+        <input type="radio" />
+        <label class="label-customer-no" for="no">No</label> <br />
+
+        <input type="submit" value="Register" class="btn" />
+      </form>
+    </main>
+  </body>
+</html>
