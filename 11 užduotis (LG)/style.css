@@ -1,0 +1,75 @@
+body {
+  background: url(https://kauno.diena.lt/sites/default/files/Vilniausdiena/Vartotoju%20zona/kamiles/lietuvos-gelezinkeliai-pasirupins-kelionemis-popieziaus-vizito-metu-5b9791eaeb8f0.jpg);
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(0, 40, 130);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-container img {
+  height: 60px;
+  padding-bottom: 0.8em;
+}
+
+.header-container nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 1rem;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.3rem;
+  box-sizing: border-box;
+  content: 1;
+  margin: 10px;
+  padding-bottom: 5.8rem;
+  width: calc(25% - 20px);
+}
+
+.box:first-child {
+  width: calc(50% - 20px);
+}
+
+.box:nth-child(6) {
+  width: calc(50% - 20px);
+}
+
+.box:nth-child(11) {
+  width: calc(50% - 20px);
+}
+
+.box:nth-child(12) {
+  width: calc(50% - 20px);
+}
+
+p {
+  margin: 10px;
+  color: grey;
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  color: grey;
+  padding: 1.2rem;
+  margin-top: 0.8rem;
+  text-align: center;
+}
