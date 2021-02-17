@@ -1,0 +1,115 @@
+body {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper img {
+  height: 90px;
+}
+
+nav a {
+  color: red;
+  text-decoration: none;
+  margin-left: 0.8rem;
+}
+
+nav a:hover {
+  color: rgb(173, 5, 5);
+  text-decoration: underline;
+}
+
+.background-image {
+  background: url(https://cdn.shopify.com/s/files/1/0059/0056/6597/products/04299392c1cafb40d1b3387f477c22a3.jpg?v=1547878412)
+    top;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+.background-image h1 {
+  background-color: rgb(250, 0, 0, 0.5);
+  display: inline-block;
+  padding: 0.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 17rem;
+}
+
+section {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+section h2 {
+  color: rgb(250, 85, 85);
+}
+
+section span {
+  color: red;
+}
+
+.bikes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bike {
+  background-color: rgb(242, 246, 247);
+  border: 2px solid rgb(196, 194, 194);
+  padding: 0.1rem;
+  margin-right: 0.9rem;
+}
+
+.bike img {
+  height: 130px;
+}
+
+.bike h3 {
+  text-align: center;
+}
+
+.bike p {
+  text-align: justify;
+  padding: 0.6rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.input {
+  margin-right: 2rem;
+}
+
+.input input,
+textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+input:nth-child(2) {
+  margin-top: 0.5rem;
+}
+
+input:nth-child(3) {
+  margin-top: 0.5rem;
+}
+
+textarea {
+  margin-top: 0.5rem;
+}
+
+.input .btn {
+  background-color: #fff;
+  border: 2px solid red;
+  width: 30%;
+}
